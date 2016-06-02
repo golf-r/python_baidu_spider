@@ -6,6 +6,7 @@ import urllib2
 class HtmlDownloader(object):
 
     def download(self, url):
+        #如果url为空，返回None
         if url is None:
             return None
         #创建请求对象
